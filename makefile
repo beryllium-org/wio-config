@@ -12,4 +12,4 @@ modules:
 package: modules
 	@python3 -u scripts/generate_package.py
 clean:
-	@if [ -e "package.jpk" ]; then rm package.jpk; fi
+	@if [ -e "wio-config.jpk" ]; then rm wio-config.jpk; fi
